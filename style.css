@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+.logo {
+    background:url(screenshot_2025_0526_152519.png);
+     no-repeat center center;
+background-size: cover;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+nav{
+  background-color: #ecf0f1;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ecf0f1;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li a {
+  color: #c0392b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1px 2px;
+}
+
+.navigation li a:hover {
+  background-color: #dfe6e9;
+  border-radius: 4px;
+}
+}
+
+.navigation a:hover {
+  </nav>
+  border-radius: 5px;
+}
+
+.header-banner {
+    background-color: #ecf0f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.header-banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.sidebar {
+    flex: 1;
+    min-width: 200px;
+    background-color: #bdc3c7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #c0392b;
+}
+
+
+.body-area {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.menu-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.footer {
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .sidebar, .body-area {
+        width: 100%;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
